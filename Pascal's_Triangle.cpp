@@ -12,3 +12,5 @@ vector<vector<long long int>> printPascal(int n)
     }
     return pascal;
 }
+// Time Complexity : O(n^2)
+// Space Complexity: O(n^2)
