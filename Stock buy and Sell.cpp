@@ -35,3 +35,17 @@ int maximumProfit(vector<int> &prices){
 
 // T.C. = O(N)
 // S.C. = O(N)
+
+/*
+// buy[] is unnecessary, rather we can code as below
+int n = prices.size();
+        vector<int>sell(n);
+        //buy[0] = prices[0];
+        sell[n-1] = prices[n-1];
+        for(int i = n - 2; i >= 0; --i)
+            sell[i] = max(sell[i+1], prices[i]);
+        int max_profit = 0;
+        for(int i =0 ; i < n ; ++i)
+            max_profit = max(max_profit, sell[i] - prices[i]);
+        return max_profit;
+*/
