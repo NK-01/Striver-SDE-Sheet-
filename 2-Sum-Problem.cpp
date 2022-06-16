@@ -31,7 +31,7 @@ vector<vector<int>> pairSum(vector<int> &arr, int s){
 // T.C. : O(N^2)
 // S.C. : O(N^2)
 
-//APP - 2 
+//APP - 2  via two pointers approach
 /*
 1. sort the given array
 2. then apply binary search on them
