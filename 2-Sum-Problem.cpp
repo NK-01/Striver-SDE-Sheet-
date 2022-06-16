@@ -67,4 +67,8 @@ vector<int> twoSum(vector<int>& n, int target) {
     
     use vector<pair<int,int>> to keep track of elements w.r.t their corresponding index.
 
+// T.C.: O(N log N)
+// S.C. : O(N)
 */
+
+// APP - 3 via hashing T.C. : O(n), S.C. : O(n)
