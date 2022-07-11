@@ -75,5 +75,5 @@ Node *addTwoNumbers(Node *head1, Node *head2)
     return head->next;
 }
 
-// T.C : O(N + M)
-// S.C : O (1)
+// T.C : O(max(N+ M)
+// S.C : O (max (N + M))
